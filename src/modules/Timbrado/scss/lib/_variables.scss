@@ -1,0 +1,55 @@
+/*-----------------------------------*\
+            $COLORS
+\*-----------------------------------*/
+
+/*
+*   Branding Colors   
+*/
+
+$color-brand:       rgb(80 ,200,200);
+$color-secondary:   rgba(80, 200, 200, .1);
+
+$color-black:       rgb(0,0,0);
+$color-darkgrey:    #4d4d4d;
+$color-grey:        #737373;
+$color-lightgrey:   #bfbfbf;
+$color-white:       rgb(255,255,255);
+
+/*
+*   Texture Colors
+*/
+
+$color-alert:   rgb(252,228,207);
+$color-error:   rgb(218,79,73);
+$color-info:    rgb(66,184,221);
+$color-success: rgb(91,183,91);
+
+/*
+* Typography
+*/
+
+$basefont: 'Baloo Chettan 2', sans-serif;
+$basefontsize: 10px;
+
+/*
+* Buttons
+*/
+
+$buttoncolor: $color-white;
+$button-border-radius: 3px;
+$buttonbackgroundcolor: $color-brand;
+$buttonfontsize: $basefontsize * 1.5;
+
+/*
+* INPUTS
+*/
+
+$txt-border-radius: 3px;
+
+/*
+* Constants
+*/
+
+$border-radius: 3px; 
+$padding: 24px;
+$page-max-width: 800px;

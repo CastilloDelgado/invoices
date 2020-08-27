@@ -1,0 +1,53 @@
+{
+    "image" : "logo.png",
+    "modules": [
+        {
+            "name": "Administrador",
+            "component": "PrivateRoute",
+            "render": "AdminRouter",
+            "path": "/admin",
+            "links": [
+                {
+                    "to": "/admin",
+                    "title": "Ingresar"
+                }
+            ],
+            "routes": [
+                {
+                    "path": "/login",
+                    "component": "LoginPage"
+                },
+                {
+                    "path": "/empresa",
+                    "component": "EmpresasScreen"
+                }
+            ]
+        },
+        {
+            "name": "Proveedores",
+            "component": "SupplierRoute",
+            "render": "SupplierMainRouter",
+            "path": "/prov",
+            "links": [
+                {
+                    "to": "/proveedor",
+                    "title": "Ingresar"
+                },
+                {
+                    "to": "/registro-prov",
+                    "title": "Registro"
+                }
+            ],
+            "routes": [
+                {
+                    "path": "/proveedor",
+                    "component": "SupplierLoginPage"
+                },
+                {
+                    "path": "/registro-prov",
+                    "component": "RegisterScreen"
+                }
+            ]
+        }
+    ]
+}

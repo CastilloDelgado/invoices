@@ -1,0 +1,52 @@
+/*------------------------------------------*\
+                    BUTTONS
+\*------------------------------------------*/
+
+.btn {
+    
+    display: inline-block;
+    color: $buttoncolor;
+    background-color: $buttonbackgroundcolor;
+    line-height: 2.5;
+    border-radius: $border-radius;
+    font-size: $buttonfontsize;
+
+    &__icon {
+        font-size: .6em;
+    }
+
+    &--info {
+        font-family: $basefont;
+        width: 25vw;
+        height:4vw;
+        display: inline-flexbox;
+        color: $buttoncolor;
+        background-color: $buttonbackgroundcolor;
+        border: none;
+        border-radius: $button-border-radius;
+        font-size: $buttonfontsize;
+        color: $color-black;
+        margin: 15px;
+        max-height: 40px;
+    }
+} 
+
+.btn-option {
+
+    &--update {
+        margin: 5px;
+        border: none;
+        background-color: transparent;
+    }
+
+    &--delete {
+        margin: 5px;
+        border: none;
+        background-color: transparent;
+    }
+}
+
+// BEM = BLOCK ELEMENT MODIFIER
+// B: .btn
+// E: .btn__{name}
+// M: .btn--{description}

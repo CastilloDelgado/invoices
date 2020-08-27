@@ -1,0 +1,17 @@
+/*--------------------------------------------*\
+                    $INPUTS
+\*--------------------------------------------*/
+
+.txt {
+    &--form{
+        font-family: "Baloo Chettan 2";
+        color: black;
+        background-color: $color-lightgrey;
+        width: 25vw;
+        height: 3.5vw;
+        border: none;
+        text-align: center;
+        border-radius: $txt-border-radius;
+        max-height: 40px;
+    }
+}

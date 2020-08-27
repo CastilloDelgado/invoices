@@ -1,0 +1,93 @@
+
+.background {
+    font-family: $basefont;
+    text-align: center;
+    left: auto;
+    color: white;
+    width: 87%;
+    height: 92vh;
+    background-size: 400% 400%;
+    background-image: radial-gradient(ellipse 100% 100% , $color-white, $color-brand);
+    position: relative;
+    animation: background-animation 40s ease-in-out infinite;
+    border-radius: 10px;
+}
+
+.log-in {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: $color-white;
+    color: black;
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.log-in-form{
+    font-family: $basefont;
+    background-color: $color-white;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    top: 20%;
+    color: black;
+    height: 70%;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.invoice-form{
+    color: $color-black;
+    background-color: $color-white;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 10vh;
+    height: 70vh;
+    width: 40vw;
+    border-radius: 10px;
+}
+
+.user-registry-form{
+    
+    color: $color-black;
+    background-color: $color-white;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 20vh;
+    height: 50vh;
+    width: 40vw;
+    border-radius: 10px;
+    max-height: 430px;
+    min-height: 420px;
+    max-width: 600px;
+    min-width: 400px;
+}
+
+.users-admin{
+    align-content: center;
+    background-color: $color-white;
+    color: $color-black;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+header{
+    background-color: $color-brand;
+} 

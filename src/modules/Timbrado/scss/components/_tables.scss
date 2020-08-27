@@ -1,0 +1,13 @@
+
+.users-table{
+    background-color: $color-secondary;
+    color: $color-black;
+    text-shadow: .5px .5px $color-lightgrey;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    td, th {
+        padding: 5px;
+    }
+}

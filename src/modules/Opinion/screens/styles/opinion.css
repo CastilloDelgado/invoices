@@ -1,0 +1,11 @@
+div.pdfInput > input {
+  border: none;
+  background-color: rgba(11, 35, 63,.1);
+  width: 50%;
+  text-align-last: center;
+  padding: 30px;
+  font-size: 15px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  display: block;
+}
